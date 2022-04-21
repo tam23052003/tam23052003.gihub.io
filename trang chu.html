@@ -1,0 +1,585 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<title>Cửa hàng điện tử Online</title>
+</head>
+<style>   
+    #gioithieu{
+        background-image: url(chuong-cua-co-hinh-tot-nhat-2022.jpg);
+        width: 100%; height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+	 #menu{
+        width:100%;
+        height:35px;
+        background-color:rgba(40, 96, 218, 0.795);
+      }
+	 #menu a:hover{
+	background-color: rgb(153,153,255);
+	color: #09F;
+	font-weight: bold;
+}
+#list{
+  display: flex;
+}
+#list li{
+
+  width: 20%;
+}
+#list li a{
+  height:30px;
+  width: 100%;
+  padding-top:8px;
+  float:left;
+  text-align:center;
+  text-decoration:none;
+
+}
+
+#list ul ,li{
+  list-style: none;
+}
+#listt  li a{
+  width: 153px;
+ height: 35px;
+  border: 1px solid    #f2f2f2;
+  background-color:#edebeb;
+}
+#listt{
+  position: relative;
+  display: none;
+}
+#list li:hover ul#listt{
+  display: block;
+}
+
+	 
+	#ndleft{
+	width: 230px;
+	
+background-color:#edebeb;
+margin-top: 30px;
+margin-left: 30px;
+float:left;
+line-height: 30px;
+
+		}
+    #ndleft li {
+  list-style: none;
+}
+#ndleft li a {
+  
+  text-decoration: none;
+}
+
+#search input{
+  border-radius: 20px;
+  width: 85%;
+}
+		
+a{
+  text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+	color: #96F;
+}
+	 #dn {
+    width:100%;
+    height:28px;
+    background-color:#0CF;
+		}
+	#dn a{
+  display:inline;
+	height:30px;
+	padding-top:4px;
+	width:10%;
+	float:right;
+	text-decoration: none;
+}
+
+#wrap{
+  display: flex;
+  flex-wrap: wrap;
+  width:80%;
+padding:30px;
+justify-content: space-around;
+
+}
+.ndmid{
+  width:300px;
+  height:300px;
+  float:left;
+ margin: 20px 0px 20px 0px}
+.ndmid p img{
+	width:250px;
+	height: 200px;
+	margin-left: 25px;
+	}
+ #wra{
+  
+  flex-wrap: wrap;
+  width:100%;
+padding:30px;
+justify-content: space-around;
+
+}
+.ndmi{
+  width:300px;
+  height:300px;
+ 
+  float:left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.ndmi p img{
+  width:250px;
+  height: 200px;
+  margin-left: 25px;
+  }
+#bolang{
+  display: flex;
+  margin-bottom: 50px;
+}
+#bol{
+  text-align: center;
+  border: 1px solid yellow;
+  font-size: 15px;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  background-color:#99dfff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+#huh{
+  transition: all .3s ease;
+}
+#huh:hover{
+  transform: scale(1.3);
+} 
+.moto{
+  display: none;
+}
+#ndleft ul li:nth-child(2):hover .moto{
+  display: block;
+}
+#chantrang{
+  background-color:#0CF;
+  height: 200px;
+
+
+
+}
+#chantrang1{
+  margin-left: 100px;
+  margin-right: 100px;
+  float: left;
+
+}
+#chantrang2{
+  float: left;
+}
+#chantrang3{
+   margin-left: 100px;
+  margin-right: 20px;
+  float: left;
+}
+#chantrang a{
+  text-decoration: none;
+}
+
+
+</style>
+
+<body>
+	
+<div id="body">
+	<div id="dn">
+	  <a href="Dangnhap.html" target="_blank">Đăng Nhập</a>     
+	  <a href="dangkyy.html">Đăng Ký</a>     
+</div>      
+	<header class="header">
+
+<div align="center" id="gioithieu"><img src="inmage/cecc2f065ef23cba09b2e0adbe23ab4d-2760724338112005057.jpg" width="100%" height="289" />
+</div>
+<div id="menu"><nav> 
+  <div align="center">
+    <uL id="list"> 
+  	<li><a href="trang chu.html">Trang Chủ</a> </li>
+  <li><a href="demo.html">Trang Sản Phẩm</a>
+    <ul id="listt">
+      <li><a href=#>Xe máy</a></li>
+      <li><a href=#>Ô tô</a></li>
+      <li><a href=#>Nội thất</a></li>
+      <li><a href=#>Ngoại thất</a></li>
+    </ul>
+  </li>
+  
+  	<li><a href="giohang.html">Giỏ Hàng</a></li>
+  	<li><a href="tintuc.html">Tin tức</a></li>
+  	<li><a href="lienhe.html">Liên hệ</a></li>
+  </uL>
+  </div></nav>
+</div>
+	 </header>
+<div id="ndleft">
+	<div id="search">
+        <input type="" name="" placeholder="Bạn muốn mua gì?" >        
+        <a href="#"><img src="inmage/1.png" width="12%"></a>
+    </div>
+  <ul>
+    <li><a href="#">
+      <h4>Nội Dung Sản Phẩm</h4></a>
+    </li>
+    <li><a href="#">Xe Máy</a>  
+      <ul class="moto">
+        <li>
+          <a href="#">Trên 50cc</a>
+        </li>
+        <li>
+          <a href="#">Dưới 50cc</a>      
+        </li>
+        
+      </ul>
+    </li>
+    <li><a href="#">Ô tô</a></li>
+    <li><a href="#">Xe đạp</a></li>
+    <li><a href="#">Xe điện</a></li>
+    <li><a href="#">Xe Tải,Xe Ben</a></li>
+    <li><a href="#">Phương tiện khác</a></li>
+    <li><a href="#">Phụ Tùng Xe</a>
+		  
+		
+    </li>
+  </ul>
+</div>
+<div id="wrap">
+<div class="ndmid">
+  <p><img id="huh" src="inmage/6.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <p><b style="font-size:15px">Toyota:Camry 2.0 G</b></p>
+    <p style="color:red">800.000.000VNĐ </p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img id="huh" src="inmage/su.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+   <p><b style="font-size:15px">KAWASAKI 2.0 G</b></p>
+    <p style="color:red">90.000.000VNĐ </p>
+   <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="chitietsanphamzu.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img id="huh" src="inmage/3.jfif" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <p><b style="font-size:15px">Toyota:Camry 2.5 G</b></p>
+    <p style="color:red">800.000.000VNĐ </p>
+     <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="chitietsanpham+.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img img id="huh" src="inmage/4.png" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <p><b style="font-size:15px">ALPHARD LUXURY</b></p>
+    <p style="color:red">2.590.000.000VNĐ </p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="chitietsanpham.h.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img img id="huh" src="inmage/5.png" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+   <p><b style="font-size:15px">COROLLA ALTIS 1.8V</b></p>
+    <p style="color:red">795.000.000VNĐ </p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="chitietsanphamsao.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img img id="huh" src="inmage/image bmw.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <p><b style="font-size:15px">VELOZ CROSS CVT TOP</b></p>
+    <p style="color:red">688.000.000VNĐ </p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="chitietsanpham.bmw.html"> Đặt Mua</a></div>
+    </button></p>  </div>
+</div>
+</div>
+</div>
+</div>
+   <div align="center"><img src="inmage/tc2.jpg" width="94%" height="400" />
+</div>
+
+<div id="wra">
+<div id="bolang">
+  <p id="bol">Bọc Vô Lăng Ô Tô</p>
+<div class="ndmi">
+
+  <p><img img id="huh" src="inmage/bl1.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Bọc vô lăng Sparco 1117BL</b></P>
+    <p style="color:red"><del style="color:black">490.000VNĐ</del>  420.000VNĐ</p>
+  <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+  
+</div>
+<div class="ndmi">
+  <p><img img id="huh" src="inmage/bl2.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <P><b>Bọc vô lăng ULTRA RACING URS-201BL</b></P>
+    <p style="color:red"><del style="color:black">590.000VNĐ</del>  490.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img img id="huh" src="inmage/bl3.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <P><b>Bọc vô lăng Sparco chính hãng 1103RS</b></P>
+    <p style="color:red"><del style="color:black">490.000VNĐ</del>  420.000VNĐ</p>
+   <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img img id="huh" src="inmage/bl4.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+    <P><b>Bọc vô lăng Sparco 1111AZ</b></P>
+    <p style="color:red"><del style="color:black">470.000VNĐ</del>  399.000VNĐ</p>
+   <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+ </div>
+
+</div>
+</div>
+
+<div id="wra">
+<div id="bolang">
+  <p id="bol">Nước hoa ô tô</p>
+
+  <div class="ndmi">
+
+  <p><img id="huh" src="inmage/nh1.jpeg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Nước hoa ô tô Carori chính hãng Z-278</b></P>
+     <p style="color:red"><del style="color:black">350.000VNĐ</del>  295.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>  </div>
+
+</div>
+<div class="ndmid">
+ <p><img id="huh" src="inmage/nh2.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Tinh dầu treo xe ô tô, xe hơi</b></P>
+     <p style="color:red"><del style="color:black">210.000VNĐ</del>  109.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+ <p><img id="huh" src="inmage/nh3.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Túi thơm đựng hạt Cafe treo xe khử mùi ô tô</b></P>
+     <p style="color:red"><del style="color:black">129.000VNĐ</del>  99.000VNĐ</p>
+   <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img id="huh" src="inmage/nh4.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Nước hoa ô tô ROCK Car Aroma Diffuser Thiết kế vỏ hợp kim Nhôm</b></P>
+     <p style="color:red"><del style="color:black">749.000VNĐ</del>  499.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+ </div>
+
+</div>
+</div>
+
+<div id="wra">
+<div id="bolang">
+  <p id="bol">Bạc phủ</p>
+<div class="ndmi">
+
+  <p><img id="huh" src="inmage/bp1.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Bạt phủ xe ô tô và chống nóng 5D có bông</b></P>
+     <p style="color:red"><del style="color:black">950.000VNĐ</del>  850.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+
+</div>
+<div class="ndmid">
+ <p><img id="huh" src="inmage/bp2.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Bạt phủ nóc ô tô che nắp Capo chống nóng 5D có lót bông</b></P>
+     <p style="color:red"><del style="color:black">190.000VNĐ</del>  110.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img id="huh" src="inmage/bp3.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Bạt phủ ô tô tráng nhôm phản quang chính hãng YIKA</b></P>
+     <p style="color:red"> 290.000VNĐ</p>
+  <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+   <p><img id="huh" src="inmage/bp4.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Rèm che nắng ô tô thông minh Kính Lái – mẫu 3</b></P>
+     <p style="color:red"><del style="color:black">459.000VNĐ</del>  350.000VNĐ</p>
+  <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+ </div>
+
+</div>
+</div>
+<div id="wra">
+<div id="bolang">
+  <p id="bol">Giá Đỡ Điện Thoại</p>
+<div class="ndmi">
+
+  <p><img id="huh" src="inmage/gddt1.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Giá đỡ IPad, máy tính bảng trên ô tô Rock</b></P>
+     <p style="color:red"><del style="color:black">550.000VNĐ</del>  450.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+
+</div>
+<div class="ndmid">
+ <p><img id="huh" src="inmage/gddt2.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Giá đỡ điện thoại trên ô tô Hoco CA5</b></P>
+     <p style="color:red"><del style="color:black">190.000VNĐ</del>  150.000VNĐ</p>
+    <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+  <p><img id="huh" src="inmage/gddt3.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Giá đỡ điện thoại nam châm trên ô tô Hoco</b></P>
+    <p style="color:red">190.000VNĐ - 145.000VNĐ</p>
+  <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+</div>
+<div class="ndmid">
+   <p><img id="huh" src="inmage/gddt4.jpg" width="317" height="209" alt="Ford Escape 2011" longdesc="Ford Escape 2011.jpg" /></p>
+  <div align="center">
+  <p></p>
+  <P><b>Giá đỡ điện thoại trên ô tô Hoco CA46</b></P>
+     <p style="color:red">350.000VNĐ</p>
+  <p>
+      <button style="background-color:#f58142; border-radius:10px; ">
+      <div  align="center"><a style="text-decoration: none;" href="ctsp.html"> Đặt Mua</a></div>
+    </button></p>
+  </div>
+ </div>
+
+</div>
+</div>
+<div id="chantrang">
+  <div id="chantrang1">
+  <h3><span class=" glyphicon glyphicon-ok-sign"></span> Dịch vụ sửa chữa nội thất</h3>
+ <p><a href="#">Lót sàn ô tô</a></p>
+ <p><a href="#">Lót ghế ô tô</a></p>
+ <p><a href="#">Bọc vô lăng ô tô</a></p>
+ <p><a href="#">May lọc không khí ô tô</a></p>
+</div>
+ 
+  <div id="chantrang2">
+  <h3><span class="glyphicon glyphicon-cog"></span> Dịch vụ sửa chữa ngoại thất</h3>
+ <p><a href="#">Khăn lau, máy rửa xe o tô</a></p>
+ <p><a href="#">Bạt phủ ô tô</a></p>
+ <p><a href="#">May bơm lớp ô tô</a></p>
+ <p><a href="#">Trang trí ngoài xe</a></p>
+</div>
+ 
+<div id="chantrang3">
+  <h3><span class="glyphicon glyphicon-earphone"></span> Liên hệ</h3>
+ <p> <b>Địa chỉ: </b>22 tháng 12, Thuận Giao, Thuận An, Việt Nam</p>
+ <p> <b>Hotline 1: </b>023456789JQK</p>
+ <p> <b>Hotline 2: </b>21248020102594</p>
+ <p> <b>Email:</b>21248020102594@student.tdmu.edu.vn</p>
+ </div>
+  </div>
+</body>
+</html>
